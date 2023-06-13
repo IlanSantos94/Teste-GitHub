@@ -1,0 +1,25 @@
+
+body{
+    background: black;
+}
+.todos{
+    margin: 0 auto;
+    padding-top: 6px;
+    
+}
+.cabeça{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 70px;
+    color: azure;
+}
+input{
+    border-radius: 50px;
+    font-size: 30px ;
+    padding: 5px 8px 3px 14px;
+    
+}
+.perna{
+    text-align: center;
+    margin-top: 50px;
+}
