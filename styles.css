@@ -1,25 +1,78 @@
-
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+img{
+    width: 520px;
+    margin: 150px auto;
+}
 body{
     background: black;
-}
-.todos{
-    margin: 0 auto;
-    padding-top: 6px;
-    
-}
-.cabeça{
+    display: flex;
     text-align: center;
-    margin-top: 200px;
-    font-size: 70px;
-    color: azure;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 100vh;
+}
+
+.text-tittle{
+    color: beige;
+    text-align: center;
+    font-size:32px;
+    line-height: 37px;
 }
 input{
-    border-radius: 50px;
-    font-size: 30px ;
-    padding: 5px 8px 3px 14px;
-    
+    background-color: rgb(94, 94, 94);
+    border: 1px solid  rgb(94, 94, 94);
+    border-radius: 14px;
+    height: 74px;
+    width: 342px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    opacity: 0.7;
 }
-.perna{
-    text-align: center;
-    margin-top: 50px;
+.raffle-number{
+    margin-right: 62px;
+}
+
+button{
+    background: #6d1516;
+    box-shadow: 0px 18px 40px #6d1516;
+    border-radius: 10px;
+    width: 342px;
+    height: 72px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 66px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+    opacity: 0.8;
+}
+h1{
+    color: #ffffff;
+    background: #6d1516;
+    box-shadow: 0px 18px 40px #6d1516;
+    border-radius: 10px;
+    width: 342px;
+    height: 72px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 66px auto;
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
 }
